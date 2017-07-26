@@ -1,0 +1,30 @@
+
+body{
+	padding-top:70px;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.jumbotron{
+	color:#2c3e50;
+	background: #ecf0f1;
+}
+
+
+/* 
+inspect the navbar for specificity. You need to copy the elements in css in order to change their style
+*/
+.navbar-inverse{
+	background:#2c3e50;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+}
+
+.navbar-inverse .navbar-brand{
+	color:white;
+}
+
